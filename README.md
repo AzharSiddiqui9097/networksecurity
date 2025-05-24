@@ -1,1 +1,1 @@
-## Netwrok Security Project for Phising Data ##
+## Network Security Project for Phising Data ##
