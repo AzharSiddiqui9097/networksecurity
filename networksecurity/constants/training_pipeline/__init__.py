@@ -1,6 +1,8 @@
 import os
 import sys
 
+SCHEMA_FILE_PATH = os.path.join("data_schema", "schema.yaml")
+
 DATA_INGESTION_COLLECTION_NAME = "NetworkData"
 DATA_INGESTION_DATABASE_NAME = "Azhar"
 DATA_INGESTION_DIR_NAME = "data_ingestion"
@@ -14,3 +16,10 @@ ARTIFACT_DIR = "Artifacts"
 FILE_NAME = "phisingData.csv"
 TRAIN_FILE_NAME = "train.csv"
 TEST_FILE_NAME = "test.csv"
+
+# Validation data constants
+DATA_VALIDATION_DIR_NAME = "data_validation"
+DATA_VALIDATION_VALID_DIR = "validated"
+DATA_VALIDATION_INVALID_DIR = "invalid"
+DATA_VALIDATION_DRIFT_REPORT_DIR = "drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME = "report.yaml"
